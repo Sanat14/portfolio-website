@@ -789,7 +789,7 @@ button:focus {
   justify-content: center;
   gap: 30px;
   margin-top: 20px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .tab-item-about {
