@@ -51,7 +51,7 @@ function WorkExperience() {
             onClick={() => setSelected(exp.id)}
           >
             <Card.Body>
-              <h4 className="text-white" style={{ display: "flex", alignItems: "center", marginBottom: "3px" }}>{exp.role}</h4>
+              <h4 style={{ display: "flex", alignItems: "center", marginBottom: "3px", color: "#c95bf5", fontWeight: "600"}}>{exp.role}</h4>
               <p className="text-white" style={{ display: "flex", alignItems: "center", marginBottom: "5px" }}>
                 <img src={exp.companyLogo} alt={exp.company} style={{ width: "20px", height: "20px", marginRight: "10px" }} />
                 <span style={{ fontSize: "16px", fontWeight: "400" }}>{exp.company}</span>

@@ -33,7 +33,7 @@ function Education() {
             onClick={() => setSelected(exp.id)}
           >
             <Card.Body>
-              <h4 className="text-white" style={{ display: "flex", alignItems: "center", marginBottom: "3px" }}>{exp.course}</h4>
+              <h4 style={{ display: "flex", alignItems: "center", marginBottom: "3px", color: "#c95bf5", fontWeight: "600" }}>{exp.course}</h4>
               <p className="text-white" style={{ display: "flex", alignItems: "center", marginBottom: "5px" }}>
                 <span style={{ fontSize: "16px", fontWeight: "400" }}>{exp.school}</span>
               </p>

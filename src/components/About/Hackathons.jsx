@@ -46,7 +46,7 @@ function Hackathons() {
             onClick={() => setSelected(exp.id)}
           >
             <Card.Body>
-            <h4 className="text-white" style={{ display: "flex", alignItems: "center", marginBottom: "3px" }}>
+            <h4 style={{ display: "flex", alignItems: "center", marginBottom: "3px", color: "#c95bf5", fontWeight: "600" }}>
               {exp.hackathon_name}
               {exp.prize && (
                 <span style={{ marginLeft: 40, color: "#cd7f32" }}>
