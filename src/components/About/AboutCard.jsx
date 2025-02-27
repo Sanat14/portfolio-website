@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaBasketballBall, FaGamepad} from 'react-icons/fa';
+import { MdLocationOn } from 'react-icons/md';
+
 
 function AboutCard() {
   return (
@@ -18,13 +20,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Sports (Basketball and Cricket in particular)
+              <FaBasketballBall style={{color: "#c95bf5"}} /> &nbsp; Sports (Basketball and Cricket in particular)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Gaming
+              <FaGamepad  style={{color: "#c95bf5"}}/> &nbsp; Gaming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <MdLocationOn style={{color: "#c95bf5"}} /> &nbsp; Travelling
             </li>
           </ul>
         </blockquote>
