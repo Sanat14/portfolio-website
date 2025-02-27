@@ -18,7 +18,7 @@ function Contact() {
             }}
           >
             <h1 style={{ fontSize: "3em", paddingBottom: "20px", marginTop: "250px" }}>
-              <strong className="purple"> Feel free to reach out to me on</strong> :
+              <strong className="purple"> Feel free to reach out to me on :</strong>
             </h1>
             <ContactCard />
           </Col>
