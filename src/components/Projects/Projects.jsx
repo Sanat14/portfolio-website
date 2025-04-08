@@ -20,7 +20,7 @@ function Projects() {
               imgPath={sentiment}
               isBlog={false}
               title="Sentiment Analysis"
-              description="Unleashing the power of deep learning to decode emotions in movie reviews! Using LSTM and a custom Transformer model, this project predicts sentiment with cutting-edge accuracy, offering a glimpse into how machines understand human opinions"
+              description="Unleashing the power of deep learning to decode emotions in movie reviews! Experimenting with an LSTM, custom Transformer and fine-tuned BERT Model, this project predicts sentiment with cutting-edge accuracy, offering a glimpse into how machines understand human opinions"
               ghLink="https://github.com/Sanat14/Sentiment-Analysis"
               techStack={["Python", "TensorFlow", "Keras"]}
             />
