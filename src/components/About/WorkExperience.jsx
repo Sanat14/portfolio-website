@@ -13,6 +13,17 @@ function WorkExperience() {
   const experiences = [
     {
       id: 1,
+      role: "Software Engineer",
+      company: "Microsoft",
+      companyLogo: MsLogo,
+      date: "September 2025 - Present",
+      skills: ["C#",".NET", "Microsoft Azure"],
+      description: [
+        
+      ]
+    },
+    {
+      id: 2,
       role: "Software Engineer Intern",
       company: "Microsoft",
       companyLogo: MsLogo,
@@ -25,7 +36,7 @@ function WorkExperience() {
       ]
     },
     {
-      id: 2,
+      id: 3,
       role: "Site Reliability Engineer Intern",
       company: "Avaya",
       companyLogo: AvayaLogo,
@@ -66,24 +77,26 @@ function WorkExperience() {
                   </span>
                 ))}
               </div>
-              <ul style={{ padding: 0, marginTop: "15px" }}>
-                {exp.description.map((point, index) => (
-                  <li 
-                    key={index} 
-                    style={{ 
-                      display: "flex", 
-                      alignItems: "flex-start", 
-                      gap: "8px", 
-                      marginBottom: "8px" 
-                    }}
-                  >
-                    <FaCircle style={{ color: "white", fontSize: "8px", marginTop: "6px" }} />
-                    <span style={{ fontSize: "14px", color: "white", textAlign: "left", flex: 1 }}>
-                      {point}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              {exp.description.length > 0 && (
+                <ul style={{ padding: 0, marginTop: "15px" }}>
+                  {exp.description.map((point, index) => (
+                    <li 
+                      key={index} 
+                      style={{ 
+                        display: "flex", 
+                        alignItems: "flex-start", 
+                        gap: "8px", 
+                        marginBottom: "8px" 
+                      }}
+                    >
+                      <FaCircle style={{ color: "white", fontSize: "8px", marginTop: "6px" }} />
+                      <span style={{ fontSize: "14px", color: "white", textAlign: "left", flex: 1 }}>
+                        {point}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </Card.Body>
           </Card>
         ))}
